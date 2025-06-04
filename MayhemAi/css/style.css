@@ -1,0 +1,70 @@
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  background-image: url("../images/color_background.svg");
+  background-repeat: repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 100%;
+}
+
+.logo-header {
+  width: 90%;
+  height: 0;
+  padding-top: 60%;
+  background-image: url("../images/mayhem_logo_svg.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+}
+
+.page-content {
+  position: relative;
+  width: 100%;
+  padding: 2rem; /* add some spacing around your text */
+  box-sizing: border-box;
+  color: #ffffff; /* white text over the dark background */
+  
+}
+
+.text-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.page-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.page-content p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+/* Footer styling */
+.site-footer {
+  background-color: rgba(11, 19, 43, 0.9); /* dark navy, slightly translucent */
+  color: #ffffff;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+.site-footer .text-container {
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+/* Optional: give a little separation from the main content */
+.page-content {
+  margin-bottom: 2rem;
+}

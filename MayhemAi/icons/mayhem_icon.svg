@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Wireframe cube with nodes at each vertex, styled like the node‐tree icon -->
+  <g stroke="#00AEEF" stroke-width="2" fill="none">
+    <!-- Front face edges -->
+    <line x1="30" y1="30" x2="70" y2="30"/>
+    <line x1="70" y1="30" x2="70" y2="70"/>
+    <line x1="70" y1="70" x2="30" y2="70"/>
+    <line x1="30" y1="70" x2="30" y2="30"/>
+
+    <!-- Back face edges -->
+    <line x1="20" y1="20" x2="60" y2="20"/>
+    <line x1="60" y1="20" x2="60" y2="60"/>
+    <line x1="60" y1="60" x2="20" y2="60"/>
+    <line x1="20" y1="60" x2="20" y2="20"/>
+
+    <!-- Connecting edges between front and back faces -->
+    <line x1="20" y1="20" x2="30" y2="30"/>
+    <line x1="60" y1="20" x2="70" y2="30"/>
+    <line x1="60" y1="60" x2="70" y2="70"/>
+    <line x1="20" y1="60" x2="30" y2="70"/>
+  </g>
+
+  <!-- Nodes (circles) at each of the 8 vertices -->
+  <g fill="#00AEEF" stroke="none">
+    <!-- Front face vertices -->
+    <circle cx="30" cy="30" r="4"/>
+    <circle cx="70" cy="30" r="4"/>
+    <circle cx="70" cy="70" r="4"/>
+    <circle cx="30" cy="70" r="4"/>
+    <!-- Back face vertices -->
+    <circle cx="20" cy="20" r="4"/>
+    <circle cx="60" cy="20" r="4"/>
+    <circle cx="60" cy="60" r="4"/>
+    <circle cx="20" cy="60" r="4"/>
+  </g>
+</svg>
